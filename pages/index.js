@@ -17,8 +17,6 @@ export default function Home() {
     res.then(({ data }) => setUsers(data.items)).catch(err => console.log(err));
   }
 
-  console.log(users);
-
   return (
     <div>
       <Head>
